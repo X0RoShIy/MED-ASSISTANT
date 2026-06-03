@@ -1,0 +1,11 @@
+# --- Базовые зависимости (основное приложение) ---
+pandas>=2.0
+rapidfuzz>=3.0
+easyocr>=1.7
+gradio>=4.0
+Pillow>=10.0
+
+# --- Дообучение LLM (опционально, нужен GPU) ---
+# Устанавливать отдельно, см. finetune/README.md:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+#   pip install transformers peft bitsandbytes trl datasets accelerate psutil

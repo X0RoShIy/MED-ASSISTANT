@@ -1,0 +1,20 @@
+{
+  "baseline_emulated": {
+    "factual_accuracy": 0.8936170212765957,
+    "hallucination_rate": 0.0,
+    "russian_ratio": 0.783770477701606,
+    "structure_score": 0.665,
+    "disclaimer_rate": 0.63,
+    "n_with_conflicts": 47,
+    "n_total": 200
+  },
+  "reference": {
+    "factual_accuracy": 1.0,
+    "hallucination_rate": 0.0,
+    "russian_ratio": 0.8311876613089204,
+    "structure_score": 0.892,
+    "disclaimer_rate": 1.0,
+    "n_with_conflicts": 47,
+    "n_total": 200
+  }
+}
